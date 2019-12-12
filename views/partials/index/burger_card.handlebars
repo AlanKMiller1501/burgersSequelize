@@ -1,0 +1,9 @@
+<li class="burgerCard">
+    <div>{{burger_name}}</div>
+    <div>
+        <form action="/api/changeDevoured/{{id}}" method="post">
+            <input type="hidden" name="devoured" value="{{isEaten}}">
+            <input type="submit" value="{{#if devoured}}Order More{{else}}Devour{{/if}}">
+        </form>
+    </div>
+</li>

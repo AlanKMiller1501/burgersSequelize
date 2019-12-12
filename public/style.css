@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+.burgerCard {
+    display: flex;
+    width: 30%;
+}
+.burgerCard div:nth-child(2) {
+    margin-left: auto;
+}
