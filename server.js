@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8000;
+console.log(process.env.PORT)
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
